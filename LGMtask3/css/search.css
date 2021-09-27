@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://i.fbcd.co/products/original/665693448db9d57d9d0df156dfedf3f7e6ba100805a24350b314985c75801765.jpg);
+    min-height: 100vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+}
+
+input[type="number"]
+{
+    width: 210px;
+    height: 30px;
+    border:2px solid black;
+}
+input[type="submit"]
+{
+    padding: 10px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(182, 115, 91);
+    border:none;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: coral;
+}
+.cen{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+button{
+    padding: 10px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(182, 115, 91);
+    border:none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: coral;
+}
+
+.cen h1{
+    font-size: larger;
+}

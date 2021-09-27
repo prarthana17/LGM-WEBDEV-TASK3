@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://images.theconversation.com/files/351954/original/file-20200810-18-sn3jdi.jpg?ixlib=rb-1.1.0&rect=0%2C932%2C5988%2C2994&q=45&auto=format&w=1356&h=668&fit=crop);
+}
+td{
+    font-size: larger;
+    font-weight: bold;
+}
+input[type="number"],[type="date"],[type="text"]{
+    width: 200px;
+    height:30px;
+    border:2px solid rgb(82, 76, 76);
+}
+input[type="submit"]
+{
+    padding-bottom: 10px;
+    padding: 10px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: bolder;
+    border:2px solid rgb(71, 69, 69);
+    background-color: rgb(182, 115, 91);
+    border:none;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: coral;
+}
+button{
+    padding-bottom: 10px;
+    padding: 10px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: bolder;
+    border:2px solid rgb(71, 69, 69);
+    background-color: rgb(182, 115, 91);
+    border:none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: coral;
+}

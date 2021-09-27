@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student</title>
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+    <form method="post" action="http://localhost/LGMtask3/res.php" > 
+      
+            <div class="cen">
+               <h1>TO KNOW YOUR RESULTS PLEASE ENTER YOUR STUDENT ID</h1>
+                <td>Student Id: </td>
+                 <td><input type="number" name="stid" placeholder="Enter Student Id here" required></td><br><br>
+                  <input type="submit" name="search" value="SUBMIT" required>
+                   <button type="button" onclick="myFunction()">HOME</button>
+                   <h1>AND GOOD LUCK FOR YOUR RESULTS</h1>
+           </div>
+        <script>
+            function myFunction(){
+                window.location.href="login.php"
+            }
+        </script> 
+</body>
+</html>

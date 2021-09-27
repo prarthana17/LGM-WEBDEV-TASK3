@@ -1,0 +1,63 @@
+body{
+    background-image: url(https://cdn.edu.buncee.com/rackspace/bnc-assets/backgrounds/558/7e6/1434484324_Young_background_education061615_02.jpg);
+    min-height: 100vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+input[type=submit]{
+    width: 300px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border:3px solid rgb(172, 133, 133);  
+}
+button{
+    padding: 10px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(182, 115, 91);
+    border:none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: coral;
+}
+.btn{
+    text-align: center;
+}
+.cont{
+    text-align: center;  
+}
+p{
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;  
+}
+h1{
+    text-align: center;
+    margin-top: 45px;
+}
+.add ,.sea, .up, .del{
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+
+.add{
+    background-image: url(https://46gyn61z4i0t1u1pnq2bbk2e-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Background_example.jpg);
+}
+.sea{
+    background-image: url(https://www.gep.com/prod/s3fs-public/top-banner/gep-smart-procurement-software-savings-tracking-savings-dashboard-opt-2.jpg);
+
+}
+.up{
+    background-image: url(https://media.istockphoto.com/photos/abstract-multi-colored-bokeh-background-lights-at-night-autumn-fall-picture-id1182650732?b=1&k=20&m=1182650732&s=170667a&w=0&h=5LphKncEWNAHpwTXphq9gi0Ix5aDHk22eXgKvtuWR8o=);
+}
+.del{
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/6QpKgim9qMgGK8QG2a6gaC/2de28b955c0cf902004fecd1a1e62bee/sub-category-1.jpg?fit=fill&w=368&h=207);
+}

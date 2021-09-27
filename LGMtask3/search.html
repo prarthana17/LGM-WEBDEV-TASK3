@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+    <form method="post" action="http://localhost/LGMtask3/search.php" > 
+       <div class="cen">
+          <h1>TO SEARCH PARTICULAR STUDENT INFORMATION,<br>PLEASE ENTER THE STUDENT ID</h1>
+            <td>Student Id: </td>
+            <td><input type="number" name="stid" placeholder="Enter Student Id  here" required></td><br><br>
+            <input type="submit" name="search" value="SUBMIT" required>
+            <button type="button" onclick="myFunction()">HOME</button>
+        </div>
+    </form>    
+    <script>
+        function myFunction(){
+            window.location.href="content.php"
+        }
+    </script>     
+</body>
+</html>

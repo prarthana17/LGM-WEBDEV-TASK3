@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <form method="post" action="http://localhost/LGMtask3/add.php" > 
+<center>
+           <h1>Enter The Details Of The Student</h1>
+   
+    <table>
+
+      <tr>
+ 	     <td>Student Id: </td>
+      <td><input type="number" name="stid" placeholder="Enter Student id  here" required></td></tr>
+
+      <tr>
+ 	     <td>Student name: </td>
+     <td><input type="text" name="stname" placeholder="Enter Student Name  here" required></td></tr>
+
+      <tr>
+ 	     <td>Gender: </td>
+        <td><input type="text" name="gender" placeholder="Enter Gender  here" required></td></tr>
+     <tr>
+        <td>Class: </td>
+        <td><input type="text" name="class" placeholder="Enter Class  here" required></td></tr> 
+
+ 
+      <tr>
+ 	   <td>DOB: </td>
+       <td><input type="date" name="dob" placeholder="Enter DOB  here" required></td></tr>   
+     
+      <tr>
+ 	   <td>Science: </td>
+       <td><input type="number" name="sci" placeholder="Enter marks  here" required></td></tr>
+     
+      <tr>
+ 	   <td>Social: </td>
+       <td><input type="number" name="soc" placeholder="Enter marks  here" required></td></tr>
+     
+      <tr>
+ 	   <td>Maths: </td>
+       <td><input type="number" name="math" placeholder="Enter marks  here" required></td></tr>
+     
+      <tr>
+ 	   <td>Kannada: </td>
+       <td><input type="number" name="kan" placeholder="Enter marks here" required></td></tr>
+     
+      <tr>
+ 	   <td>English: </td>
+       <td><input type="number" name="eng" placeholder="Enter marks  here" required></td></tr>
+     
+       <tr>
+ 	    <td>Hindi: </td>
+        <td><input type="number" name="hindi" placeholder="Enter marks here" required></td></tr>
+
+       <tr>
+        <td>Total Marks: </td>
+        <td><input type="number" name="marks" placeholder="Enter total marks  here" required></td></tr>
+        
+       <tr>
+            <td>Grade: </td>
+            <td><input type="text" name="grade" placeholder="Enter grade  here" required></td></tr>
+
+    </table>    
+<input type="submit" name="sub" value="SUBMIT" required>
+<button type="button" onclick="myFunction()">HOME</button>
+</center>
+<script>
+    function myFunction()
+    {
+        window.location.href="content.php"
+    }
+</script>
+</body>
+</html>
