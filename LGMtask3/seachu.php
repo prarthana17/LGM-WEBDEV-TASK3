@@ -89,7 +89,7 @@ if(isset($_POST['usearch']))
             }
              </style>
 
-             <h1>YOU CAN MODIFY ANY PATICULAR <br>OF THE STUDENT</h1>
+             <h1>YOU CAN MODIFY ANY PATICULAR INFORMATION<br>OF THE STUDENT</h1>
         <form method="post" action="http://localhost/LGMtask3/update.php" > 
         <div class="row">
              <div class="col">
