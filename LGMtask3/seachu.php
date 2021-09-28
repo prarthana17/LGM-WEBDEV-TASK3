@@ -177,7 +177,7 @@ if(isset($_POST['usearch']))
                 </tr>
 
                 <tr>
-                    <th>HTotal Marks</th>
+                    <th>Total Marks</th>
                     <td>
                         <input type="number"  name="marks" value="<?php echo $row['marks'];?>" >
                       
