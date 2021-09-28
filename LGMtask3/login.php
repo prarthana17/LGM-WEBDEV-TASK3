@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-            <h1>STUDENT MANAGEMENT SYSTEM</h1>
+            <h1>STUDENT RESULT MANAGEMENT SYSTEM</h1>
         <div class="left">
               <h2>ADMIN</h2>
               <p>If you are teacher<br> please login here</p>
